@@ -1,7 +1,7 @@
 Michael Johnson,STORE MANAGER,Electronics
 Sarah Williams,DEPARTMENT MANAGER,Clothing
 David Brown,TEAM LEAD,Grocery
-Emma Davis,SHIFT SUPERVISOR,Home_Garden
+Emma Davis,SHIFT SUPERVISOR,Home Garden
 James Wilson,ASSISTANT MANAGER,Toys
 Olivia Martinez,TEAM LEAD,Electronics
 William Anderson,DEPARTMENT MANAGER,Sports
@@ -10,7 +10,7 @@ Benjamin Taylor,SHIFT SUPERVISOR,Beauty
 Isabella Moore,ASSISTANT MANAGER,Automotive
 Alexander Jackson,TEAM LEAD,Grocery
 Mia White,DEPARTMENT MANAGER,Electronics
-Ethan Harris,SHIFT SUPERVISOR,Home_Garden
+Ethan Harris,SHIFT SUPERVISOR,Home Garden
 Charlotte Martin,ASSISTANT MANAGER,Clothing
 Daniel Thompson,STORE MANAGER,Toys
 Amelia Garcia,TEAM LEAD,Sports
@@ -18,7 +18,7 @@ Matthew Rodriguez,DEPARTMENT MANAGER,Beauty
 Emily Lewis,SHIFT SUPERVISOR,Automotive
 Joseph Lee,ASSISTANT MANAGER,Grocery
 Abigail Walker,TEAM LEAD,Electronics
-Christopher Hall,DEPARTMENT MANAGER,Home_Garden
+Christopher Hall,DEPARTMENT MANAGER,Home Garden
 Madison Allen,STORE MANAGER,Clothing
 Andrew Young,SHIFT SUPERVISOR,Toys
 Elizabeth King,ASSISTANT MANAGER,Sports
@@ -26,5 +26,5 @@ Joshua Wright,TEAM LEAD,Beauty
 Sofia Lopez,DEPARTMENT MANAGER,Automotive
 Ryan Hill,SHIFT SUPERVISOR,Grocery
 Avery Scott,ASSISTANT MANAGER,Electronics
-Nathan Green,STORE MANAGER,Home_Garden
+Nathan Green,STORE MANAGER,Home Garden
 Grace Adams,TEAM LEAD,Clothing
