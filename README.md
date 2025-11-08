@@ -211,7 +211,7 @@ Total Nodes: 30
 
 ## 🧮 Algorithms
 
-### Merge Sort (Recursive)
+### Merge Sort - Recursive
 
 **Time Complexity:** O(n log n) - guaranteed in all cases  
 **Space Complexity:** O(n)  
@@ -243,7 +243,7 @@ Total Nodes: 30
 
 ## 🗂️ Data Structures
 
-### Binary Tree (Level-Order Insertion)
+### Binary Tree - Level-Order Insertion
 
 **Purpose:** Visualize organizational hierarchy  
 **Insertion:** Breadth-first (level by level, left to right)  
@@ -273,30 +273,8 @@ The provided `Applicants_Form.txt` contains 30 employee records for testing:
 - Mix of common and unique names
 - Pre-formatted CSV structure
 
-**### Manual Testing Checklist
-
-- [ ] Sort with valid file
-- [ ] Sort with non-existent file
-- [ ] Sort with empty file
-- [ ] Search existing employee
-- [ ] Search non-existent employee
-- [ ] Add employee with valid inputs
-- [ ] Add employee with invalid manager type
-- [ ] Add employee with invalid department
-- [ ] Create tree with 20+ records
-- [ ] Create tree with < 20 records
-- [ ] Test all menu options
-- [ ] Test invalid menu inputs
-
-### Unit Tests (Documented)
-
-See `Unit_Tests.md` for complete test specifications:
-- `UT-SORT-001`: Test Merge Sort Algorithm
-- `UT-SEARCH-001`: Test Binary Search Functionality
-- `UT-VALIDATE-001`: Test Input Validation
-
 ---
-**
+
 ## 📚 Documentation
 
 ### Core Documentation Files
@@ -305,11 +283,7 @@ See `Unit_Tests.md` for complete test specifications:
 |----------|-------------|----------|
 | README.md | This file | Root directory |
 | Algorithm_Rationale.md | Algorithm justifications (500 words) | Root directory |
-| Use_Cases.pdf | 5 use case specifications | Documentation folder |
-| UML_Diagrams.pdf | Class and Sequence diagrams | Documentation folder |
-| Requirements.pdf | Functional & Non-functional requirements | Documentation folder |
-| User_Stories.pdf | 5 user stories with acceptance criteria | Documentation folder |
-| Unit_Tests.pdf | 3 unit test specifications | Documentation folder |
+
 
 ### Code Documentation
 
@@ -325,7 +299,7 @@ All Java classes include:
 ## 👨‍💻 Author
 
 **Michele Goncalo Régis**  
-Student ID: [2025006[  
+Student ID: 2025006
 
 
 **Assignment:** CA 2 - Integrated (Algorithms & Constructs + Software Development Fundamentals)  
@@ -343,7 +317,6 @@ This work is my own and has been completed in accordance with CCT's Academic Int
 
 ## 🙏 Acknowledgments
 
-- **Ken Healy** - Software Development Fundamentals Lecturer
 - **Taufique Ahmed** - Algorithms & Constructs Lecturer
 - **CCT College Dublin** - For providing comprehensive course materials
 
@@ -353,8 +326,8 @@ This work is my own and has been completed in accordance with CCT's Academic Int
 
 For questions or clarifications regarding this project:
 
-- **Email:** [2025006@student.cct.ie]
-- **GitHub:** [github.com/MicheleRegis]
+- **Email:** 2025006@student.cct.ie
+- **GitHub:** github.com/MicheleRegis
 
 ---
 
