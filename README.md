@@ -337,12 +337,6 @@ For questions or clarifications regarding this project:
 ✅ Implement data structures (Binary Tree)  
 ✅ Analyze algorithm complexity
 
-### Software Development Fundamentals
-✅ Determine system requirements using process modelling  
-✅ Create UML models (Class and Sequence diagrams)  
-✅ Develop use cases and user stories  
-✅ Design unit tests demonstrating testing knowledge
-
 
 <div align="center">
 
