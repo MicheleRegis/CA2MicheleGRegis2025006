@@ -72,7 +72,7 @@ The system manages employees in a department store environment, allowing HR mana
 ## 💻 System Requirements
 
 - **Java Development Kit (JDK)**: Version 8 or higher
-- **IDE**: NetBeans 8.2+ (or any Java IDE)
+- **IDE**: NetBeans 8.2+ 
 - **Operating System**: Windows, macOS, or Linux
 - **Memory**: Minimum 512MB RAM
 - **Storage**: 50MB free space
@@ -82,20 +82,20 @@ The system manages employees in a department store environment, allowing HR mana
 ## 📁 Project Structure
 
 ```
-CA_2_DepartmentStore/
+CA2MicheleGincaloRegis2025006/
 │
 ├── src/
-│   └── CA_2/
-│       ├── DepartmentStoreMain.java    # Main application class
-│       ├── Enums.java                  # Menu, Manager, and Department enums
-│       ├── Employee.java               # Employee data model
-│       ├── MergeSort.java              # Recursive sorting algorithm
-│       ├── BinarySearch.java           # Binary search algorithm
-│       └── BinaryTree.java             # Binary tree implementation
+│   └── CA2MicheleGoncaloRegis2025006/
+│       ├── CA2MicheleGoncaloRegis2025006.java    # Main application class
+│       ├── Enums.java                            # Menu, Manager, and Department enums
+│       ├── Employee.java                         # Employee data model
+│       ├── MergeSort.java                        # Recursive sorting algorithm
+│       ├── BinarySearch.java                     # Binary search algorithm
+│       └── BinaryTree.java                       # Binary tree implementation
 │
-├── Applicants_Form.txt                 # Sample employee data (30 records)
-├── README.md                           # This file
-└── Algorithm_Rationale.md              # Algorithm justification report
+├── Applicants_Form.txt                  # Sample employee data (30 records)
+├── README.md                            # This file
+└── Algorithm_Rationale.pdf              # Algorithm justification report
 
 ```
 
@@ -106,15 +106,15 @@ CA_2_DepartmentStore/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/[your-username]/CA_2_DepartmentStore.git
-cd CA_2_DepartmentStore
+git clone https://github.com/[MicheleRegis]/CA2MicheleGoncaloRegis2025006.git
+cd CA2MicheleGoncaloRegis2025006
 ```
 
 ### Step 2: Open in NetBeans
 
 1. Open NetBeans IDE
 2. File → Open Project
-3. Navigate to `CA_2_DepartmentStore` folder
+3. Navigate to `CA2MicheleGoncaloRegis2025006` folder
 4. Click "Open Project"
 
 ### Step 3: Verify Data File
