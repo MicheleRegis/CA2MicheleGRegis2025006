@@ -12,19 +12,19 @@ Alexander Jackson,Team Lead,Grocery
 Mia White,Department Manager,Electronics
 Ethan Harris,Shift Supervisor,Home Garden
 Charlotte Martin,Assistant Manager,Clothing
-Daniel Thompson,STORE MANAGER,Toys
-Amelia Garcia,TEAM LEAD,Sports
-Matthew Rodriguez,DEPARTMENT MANAGER,Beauty
-Emily Lewis,SHIFT SUPERVISOR,Automotive
-Joseph Lee,ASSISTANT MANAGER,Grocery
-Abigail Walker,TEAM LEAD,Electronics
-Christopher Hall,DEPARTMENT MANAGER,Home Garden
-Madison Allen,STORE MANAGER,Clothing
-Andrew Young,SHIFT SUPERVISOR,Toys
-Elizabeth King,ASSISTANT MANAGER,Sports
-Joshua Wright,TEAM LEAD,Beauty
-Sofia Lopez,DEPARTMENT MANAGER,Automotive
-Ryan Hill,SHIFT SUPERVISOR,Grocery
-Avery Scott,ASSISTANT MANAGER,Electronics
-Nathan Green,STORE MANAGER,Home Garden
-Grace Adams,TEAM LEAD,Clothing
+Daniel Thompson,Store Manager,Toys
+Amelia Garcia,Team Lead,Sports
+Matthew Rodriguez,Department Manager,Beauty
+Emily Lewis,Shift Supervisor,Automotive
+Joseph Lee,Assistant Manager,Grocery
+Abigail Walker,Team Lead,Electronics
+Christopher Hall,Department Manager,Home Garden
+Madison Allen,Store Manager,Clothing
+Andrew Young,Shift Supervisor,Toys
+Elizabeth King,Assistant Manager,Sports
+Joshua Wright,Team Lead,Beauty
+Sofia Lopez,Department Manager,Automotive
+Ryan Hill,Shift Supervisor,Grocery
+Avery Scott,Assistant Manager,Electronics
+Nathan Green,Store Manager,Home Garden
+Grace Adams,Team Lead,Clothing
