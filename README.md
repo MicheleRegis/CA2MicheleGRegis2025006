@@ -8,22 +8,6 @@ A comprehensive employee management system for department stores, featuring recu
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [System Requirements](#system-requirements)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Algorithms](#algorithms)
-- [Data Structures](#data-structures)
-- [Testing](#testing)
-- [Documentation](#documentation)
-- [Author](#author)
-
----
-
 ## 🎯 Overview
 
 This system was developed as an integrated assignment for **Algorithms & Constructs** and **Software Development Fundamentals** modules. It demonstrates:
