@@ -282,7 +282,7 @@ The provided `Applicants_Form.txt` contains 30 employee records for testing:
 | Document | Description | Location |
 |----------|-------------|----------|
 | README.md | This file | Root directory |
-| Algorithm_Rationale.md | Algorithm justifications (500 words) | Root directory |
+| Algorithm_Rationale.md | Algorithm justifications - 500 words | Root directory |
 
 
 ### Code Documentation
@@ -302,16 +302,13 @@ All Java classes include:
 Student ID: 2025006
 
 
-**Assignment:** CA 2 - Integrated (Algorithms & Constructs + Software Development Fundamentals)  
+**Assignment:** CA 2 - Integrated Algorithms & Constructs + Software Development Fundamentals  
 
 ---
 
 ## 📄 License
 
-This project is developed for academic purposes as part of the H.Dip. in Computing programme at CCT College Dublin.
-
-**Academic Integrity Statement:**  
-This work is my own and has been completed in accordance with CCT's Academic Integrity Policy.
+This project is developed for academic purposes at CCT College Dublin.
 
 ---
 
@@ -330,14 +327,6 @@ For questions or clarifications regarding this project:
 - **GitHub:** github.com/MicheleRegis
 
 ---
-
-## 🔄 Version History
-
-| Version | Date | Description |
-|---------|------|-------------|
-| 1.0.0 | Nov 2025 | Initial release - Complete implementation |
-| 1.0.1 | Nov 2025 | Added comprehensive documentation |
-| 1.0.2 | Nov 2025 | Final testing and bug fixes |
 
 
 ## 🎯 Learning Outcomes Demonstrated
