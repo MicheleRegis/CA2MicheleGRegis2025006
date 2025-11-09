@@ -5,55 +5,55 @@
 package ca2michelegregis2025006;
 /**
  * Binary Search implementation for Employee lookup
- * 
- * ALGORITHM JUSTIFICATION:
- * Binary Search was chosen for the following reasons:
- * 
- * 1. OPTIMAL TIME COMPLEXITY O(log n):
- *    Binary Search is the most efficient algorithm for searching in a
- *    sorted array. With O(log n) time complexity, it can search through
- *    1000 employees in about 10 comparisons, and 1,000,000 employees
- *    in about 20 comparisons. This logarithmic growth makes it ideal
- *    for systems that need to scale.
- * 
- * 2. LEVERAGES SORTED DATA:
- *    Since we're already sorting employees (requirement), Binary Search
- *    capitalizes on this sorted structure. It would be wasteful to sort
- *    data and then use linear search O(n) when Binary Search O(log n)
- *    is available.
- * 
- * 3. REAL-WORLD PERFORMANCE:
- *    In a busy department store, managers need quick employee lookups
- *    for scheduling, assignments, and queries. Binary Search provides
- *    near-instantaneous results even with thousands of employees.
- *    Linear search would become noticeably slow as staff grows.
- * 
- * 4. SPACE EFFICIENCY:
- *    Binary Search requires only O(1) auxiliary space - no additional
- *    data structures needed. This is important for systems with memory
- *    constraints or when running on resource-limited hardware.
- * 
- * 5. SIMPLICITY AND RELIABILITY:
- *    Binary Search is a well-understood, proven algorithm with no hidden
- *    edge cases. Its straightforward logic makes it easy to maintain
- *    and debug, reducing long-term maintenance costs.
- * 
- * ALTERNATIVES CONSIDERED:
- * - Linear Search O(n): Too slow for large datasets. With 10,000 employees,
- *   average search time would be 5,000 comparisons vs Binary Search's 14.
- * 
- * - Hash Table O(1): While faster, requires additional O(n) space for
- *   hash structure and doesn't support range queries or "closest match"
- *   searches that may be needed in future features.
- * 
- * - Interpolation Search O(log log n): More complex to implement and only
- *   beneficial with uniformly distributed data. Employee names aren't
- *   uniformly distributed, making Binary Search more reliable.
- * 
- * REQUIREMENT ALIGNMENT:
- * The assignment requires efficient searching in a sorted list. Binary
- * Search is the textbook optimal solution for this specific requirement,
- * balancing speed, simplicity, and space efficiency perfectly.
+ * *
+* ALGORITHM JUSTIFICATION:
+* Binary Search was chosen for the following reasons:
+*
+* 1. OPTIMAL TIME COMPLEXITY O(log n):
+*    Binary Search is the most efficient algorithm for searching in a
+*   Sorted array. It can search an array of size 'n' in O(log n) time complexity.
+*   1000 employees in about 10 comparisons and 1,000,000 employees
+*    In about 20 comparisons. This logarithmic growth makes it ideal for
+* Performance enhancement, such as for systems that have to scale.
+*
+* 2. LEVERAGES SORTED DATA:
+* Since we are already sorting the employees, a Binary Search can
+It takes advantage of this sorted structure. It would be a waste to sort
+*    data and then use linear search O(n) when Binary Search O(log n)
+*    is available.
+*
+* 3. REAL-WORLD PERFORMANCE:
+* In a busy department store, the managers need to look up employees quickly
+*    for scheduling, assignments, and queries. Binary Search provides
+* Near-instant results, even with a thousand plus employees.
+* The linear search would become slow and noticeable as staff grew.
+*
+* 4. SPACE EFFICIENCY:
+* Binary Search requires only O(1) auxiliary space, meaning it does not require extra space.
+*    Data structures needed. This is important for systems with memory
+*    constraints or when running on resource-limited hardware.
+*
+* 5. Simplicity and reliability
+*    Binary Search is a well-understood, proven algorithm with no hidden
+*    edge cases. Its straightforward logic makes it easy to maintain
+Didactic Development and Debugging reduces maintenance costs in the long run.
+*
+* ALTERNATIVES CONSIDERED:
+* - Linear Search O(n): Too slow for large datasets. With 10,000 employees,
+In this case, *   average search time would be 5,000 comparisons vs. Binary Search's 14.
+*
+* - Hash Table O(1): While faster, requires additional O(n) space for
+*   hash structure and doesn't support range queries or "closest match"
+* searches which may be required by features in the future.
+*
+* - Interpolation Search O(log log n): More complex to implement and only
+*   beneficial with uniformly distributed data. Employee names aren't
+*   Uniformly distributed, making Binary Search more reliable.
+*
+* REQUIREMENT ALIGNMENT:
+The assignment requires efficient searching in a sorted list. Binary
+• Search is the textbook optimal solution to this requirement.
+* balance perfectly among speed, simplicity, and space efficiency.
  */
 public class BinarySearch {
     
