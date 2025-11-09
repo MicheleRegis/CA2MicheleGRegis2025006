@@ -7,46 +7,46 @@ package ca2michelegregis2025006;
 /**
  * Recursive Merge Sort implementation for Employee sorting
  * 
-* JUSTIFICATION OF ALGORITHM:
-It selects the Merge Sort for the following reasons:
-*
-* 1. GUARANTEED O(n log n) TIME COMPLEXITY:
-   Unlike Quick Sort, which can degrade to O(n²) in the worst case,
-*  Merge Sort will always guarantee O(n log n) performance, whatever
-   of the order of input data. This is critical for a production system
-*   That must handle various data patterns reliably.
-*
-* 2. STABLE SORTING:
-*   Merge Sort is stable, meaning that if two employees have identical names
-*   will maintain their relative order. This is important for
-*   Maintains data integrity sorting by name but preserves
-*	Sort on secondary sort criteria, such as Employee ID or Hire Date.
-*
-* 3. PREDICTABLE PERFORMANCE:
-*   Department stores require response times be consistent. Merge Sort's
-*   Predictable O(n log n) behavior ensures the system will not suddenly
-*   Slow down with certain data patterns, unlike algorithms with
-*   Worst case quadratic time.
-*
-• 4. Efficient for large datasets:
-*  As the department store grows to possibly thousands of employees,
-*  Merge Sort scales well. The fact that its complexity is O(n log n) means that by doubling
-*  The employee count has more than doubled, and the sort time only rises by a little.
-*
-* 5. RECURSIVE NATURE REQUIREMENT:
-*  The assignment calls for a RECURSIVE sorting algorithm.
-*  The divide-and-conquer approach of Merge Sort naturally fits recursive
-*  Implementation makes it an ideal choice over iterative algorithms.
-*
-* TRADE-OFFS CONSIDERED:
-*  Space Complexity: Merge Sort utilises O(n) extra space for merging.
-*  This is acceptable given modern memory availability and the benefit
-*  Complete assurance in performance.
-*  Quick Sort Alternative: Although Quick Sort has better average space
-*  Complexity O(log n), its worst case O(n²) time is unacceptable
-•  For a production system it needs to be reliable.
-*  Heap Sort Alternative: Heap Sort has O(n log n) time with O(1) space,
-*  but it's NOT stable and harder to implement recursively cleanly.
+ * ALGORITHM JUSTIFICATION:
+ * Merge Sort was chosen for the following reasons:
+ * 
+ * 1. GUARANTEED O(n log n) TIME COMPLEXITY:
+ *    Unlike Quick Sort which can degrade to O(n²) in worst case,
+ *    Merge Sort always maintains O(n log n) performance regardless
+ *    of input data order. This is critical for a production system
+ *    that must handle various data patterns reliably.
+ * 
+ * 2. STABLE SORTING:
+ *    Merge Sort is stable, meaning employees with identical names
+ *    will maintain their relative order. This is important for
+ *    maintaining data integrity when sorting by name while preserving
+ *    secondary sort criteria like employee ID or hire date.
+ * 
+ * 3. PREDICTABLE PERFORMANCE:
+ *    Department stores need consistent response times. Merge Sort's
+ *    predictable O(n log n) behavior ensures the system won't suddenly
+ *    slow down with certain data patterns, unlike algorithms with
+ *    worst-case quadratic time.
+ * 
+ * 4. EFFICIENT FOR LARGE DATASETS:
+ *    As the department store grows (potentially thousands of employees),
+ *    Merge Sort scales well. Its O(n log n) complexity means doubling
+ *    the employee count only slightly more than doubles the sort time.
+ * 
+ * 5. RECURSIVE NATURE REQUIREMENT:
+ *    The assignment specifically requires a RECURSIVE sorting algorithm.
+ *    Merge Sort's divide-and-conquer approach naturally fits recursive
+ *    implementation, making it an ideal choice over iterative algorithms.
+ * 
+ * TRADE-OFFS CONSIDERED:
+ * - Space Complexity: Merge Sort uses O(n) extra space for merging.
+ *   This is acceptable given modern memory availability and the benefit
+ *   of guaranteed performance.
+ * - Quick Sort Alternative: While Quick Sort has better average space
+ *   complexity O(log n), its worst-case O(n²) time is unacceptable
+ *   for a production system requiring reliability.
+ * - Heap Sort Alternative: Heap Sort has O(n log n) time and O(1) space,
+ *   but it's NOT stable and harder to implement recursively cleanly.
  */
 public class MergeSort {
     
