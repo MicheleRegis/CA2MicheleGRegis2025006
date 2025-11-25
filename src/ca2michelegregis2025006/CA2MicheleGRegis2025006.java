@@ -110,36 +110,36 @@ private static boolean fileLoaded = false;
 private static void handleSort() {
     System.out.println("\n========== SORT EMPLOYEES ==========");
 
-    // Se o arquivo AINDA NÃO foi carregado, carrega agora
+    
     if (!fileLoaded) {
-        // Guardar temporariamente os funcionários já inseridos em memória
+        // Temporarily save the employees already entered in memory
         List<Employee> tempNewEmployees = new ArrayList<>(employeeList);
 
         String filename = "Applicants_Form.txt";
         if (!readEmployeesFromFile(filename)) {
-            return; // erro ao ler arquivo
+            return; // error reading file
         }
 
         System.out.println("File read successfully!");
 
-        // Agora employeeList tem os funcionários do arquivo.
-        // Re-adicionamos os que já tinham sido inseridos antes (ADD_RECORDS)
+        // Now employeeList has the employees from the file.
+        // We re-added those that had already been inserted before (ADD_RECORDS)
         employeeList.addAll(tempNewEmployees);
 
-        // Marca que o arquivo já foi carregado para não repetir no futuro
+        //Mark that the file has already been uploaded to avoid repeating it in the future
         fileLoaded = true;
     } else {
-        // Arquivo já foi carregado anteriormente
-        // employeeList já contém: dados do arquivo + novos adicionados
+        // File has already been uploaded previously
+        // employeeList already contains: data from the file + newly added
         System.out.println("Using employees currently in memory (including newly added).");
     }
 
     System.out.println("Total employees loaded: " + employeeList.size());
 
-    // Converte para array para ordenação
+    // Converts to array for sorting
     Employee[] employeeArray = employeeList.toArray(Employee[]::new);
 
-    // Ordena com Merge Sort recursivo
+    // Sorts using recursive Merge Sort
     System.out.println("\nSorting employees using Merge Sort...");
     long startTime = System.currentTimeMillis();
     MergeSort.sort(employeeArray, 0, employeeArray.length - 1);
@@ -147,18 +147,18 @@ private static void handleSort() {
 
     System.out.println("Sorting completed in " + (endTime - startTime) + "ms");
 
-    // Atualiza lista com array ordenado
+    // Updates list with sorted array
     employeeList = new ArrayList<>(Arrays.asList(employeeArray));
 
-    // Mostra os primeiros 20
-    System.out.println("\n========== SORTED EMPLOYEES (First 20) ==========");
-    int displayCount = Math.min(20, employeeList.size());
+    // Show the first 25
+    System.out.println("\n========== SORTED EMPLOYEES (First 25) ==========");
+    int displayCount = Math.min(25, employeeList.size());
     for (int i = 0; i < displayCount; i++) {
         System.out.println((i + 1) + ". " + employeeList.get(i).getName());
     }
 
-    if (employeeList.size() > 20) {
-        System.out.println("\n... and " + (employeeList.size() - 20) + " more employees");
+    if (employeeList.size() > 25) {
+        System.out.println("\n... and " + (employeeList.size() - 25) + " more employees");
     }
 }
 
