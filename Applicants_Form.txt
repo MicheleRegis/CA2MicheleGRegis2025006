@@ -1,30 +1,30 @@
-Michael Johnson,STORE_MANAGER,Electronics
-Sarah Williams,DEPARTMENT_MANAGER,Clothing
-David Brown,TEAM_LEAD,Grocery
-Emma Davis,SHIFT_SUPERVISOR,Home_Garden
-James Wilson,ASSISTANT_MANAGER,Toys
-Olivia Martinez,TEAM_LEAD,Electronics
-William Anderson,DEPARTMENT_MANAGER,Sports
-Sophia Thomas,STORE_MANAGER,Clothing
-Benjamin Taylor,SHIFT_SUPERVISOR,Beauty
-Isabella Moore,ASSISTANT_MANAGER,Automotive
-Alexander Jackson,TEAM_LEAD,Grocery
-Mia White,DEPARTMENT_MANAGER,Electronics
-Ethan Harris,SHIFT_SUPERVISOR,Home_Garden
-Charlotte Martin,ASSISTANT_MANAGER,Clothing
-Daniel Thompson,STORE_MANAGER,Toys
-Amelia Garcia,TEAM_LEAD,Sports
-Matthew Rodriguez,DEPARTMENT_MANAGER,Beauty
-Emily Lewis,SHIFT_SUPERVISOR,Automotive
-Joseph Lee,ASSISTANT_MANAGER,Grocery
-Abigail Walker,TEAM_LEAD,Electronics
-Christopher Hall,DEPARTMENT_MANAGER,Home_Garden
-Madison Allen,STORE_MANAGER,Clothing
-Andrew Young,SHIFT_SUPERVISOR,Toys
-Elizabeth King,ASSISTANT_MANAGER,Sports
-Joshua Wright,TEAM_LEAD,Beauty
-Sofia Lopez,DEPARTMENT_MANAGER,Automotive
-Ryan Hill,SHIFT_SUPERVISOR,Grocery
-Avery Scott,ASSISTANT_MANAGER,Electronics
-Nathan Green,STORE_MANAGER,Home_Garden
-Grace Adams,TEAM_LEAD,Clothing
+Michael Johnson,Store Manager,Electronics
+Sarah Williams,Department Manager,Clothing
+David Brown,Team Lead,Grocery
+Emma Davis,Shift Supervisor,Home Garden
+James Wilson,Assistant Manager,Toys
+Olivia Martinez,Team Lead,Electronics
+William Anderson,Department Manager,Sports
+Sophia Thomas,Store Manager,Clothing
+Benjamin Taylor,Shift Supervisor,Beauty
+Isabella Moore,Assistant Manager,Automotive
+Alexander Jackson,Team Lead,Grocery
+Mia White,Departament Manager,Electronics
+Ethan Harris,Shift Supervisor,Home Garden
+Charlotte Martin,Assistant Manager,Clothing
+Daniel Thompson,Store Manager,Toys
+Amelia Garcia,Team Lead,Sports
+Matthew Rodriguez,Department Manager,Beauty
+Emily Lewis,Shift Supevisor,Automotive
+Joseph Lee,Assistant Manager,Grocery
+Abigail Walker,Team Lead,Electronics
+Christopher Hall,Department Manager,Home Garden
+Madison Allen,Store Manager,Clothing
+Andrew Young,Shift Supervisor,Toys
+Elizabeth King,Assistant Manager,Sports
+Joshua Wright,Team Lead,Beauty
+Sofia Lopez,Department Manager,Automotive
+Ryan Hill,Shift Supervisor,Grocery
+Avery Scott,Assistant Manager,Electronics
+Nathan Green,Store Manager,Home Garden
+Grace Adams,Team Lead,Clothing
