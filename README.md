@@ -179,20 +179,5 @@ CA2MicheleGincaloRegis2025006/
 git clone https://github.com/MicheleRegis/CA2MicheleGoncaloRegis2025006.git
 cd CA2MicheleGoncaloRegis2025006
 
-📖 Usage
-Menu Options
-
-When you run the application:
-
-========================================
- DEPARTMENT STORE MANAGEMENT SYSTEM
-========================================
-
-========== MAIN MENU ==========
-1. Sort Employees
-2. Search Employee
-3. Add New Employee
-4. Create Employee Hierarchy
-5. Exit System
 
 
