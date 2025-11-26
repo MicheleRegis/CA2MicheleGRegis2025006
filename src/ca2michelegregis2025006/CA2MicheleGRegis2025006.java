@@ -151,14 +151,14 @@ private static void handleSort() {
     employeeList = new ArrayList<>(Arrays.asList(employeeArray));
 
     // Show the first 25
-    System.out.println("\n========== SORTED EMPLOYEES (First 25) ==========");
-    int displayCount = Math.min(25, employeeList.size());
+    System.out.println("\n========== SORTED EMPLOYEES (First 20) ==========");
+    int displayCount = Math.min(20, employeeList.size());
     for (int i = 0; i < displayCount; i++) {
         System.out.println((i + 1) + ". " + employeeList.get(i).getName());
     }
 
-    if (employeeList.size() > 25) {
-        System.out.println("\n... and " + (employeeList.size() - 25) + " more employees");
+    if (employeeList.size() > 20) {
+        System.out.println("\n... and " + (employeeList.size() - 20) + " more employees");
     }
 }
 
@@ -319,8 +319,8 @@ private static void handleSort() {
     private static void handleCreateTree() {
         System.out.println("\n========== CREATE EMPLOYEE HIERARCHY ==========");
 
-        if (employeeList.size() < 20) {
-            System.out.println("✗ Minimum 20 employee records required!");
+        if (employeeList.size() < 30) {
+            System.out.println("✗ Minimum 30 employee records required!");
             System.out.println("Current records: " + employeeList.size());
             System.out.println("Please add more employees or load data from file.");
             return;
