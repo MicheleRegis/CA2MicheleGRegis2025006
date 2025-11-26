@@ -219,7 +219,7 @@ This project was created for academic purposes as part of the **H.Dip. in Comput
 ## 📞 Contact
 
 - 📧 Email: 2025006@student.cct.ie
-- 💻 GitHub: [https://github.com/MicheleRegis](https://github.com/MicheleRegis)
+- 💻 GitHub: [https://github.com/MicheleRegis](https://github.com/MicheleRegis/CA2MicheleGRegis2025006.git))
 
 ## 🔄 Version History
 
