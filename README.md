@@ -179,7 +179,10 @@ CA2MicheleGincaloRegis2025006/
 git clone https://github.com/MicheleRegis/CA2MicheleGoncaloRegis2025006.git
 cd CA2MicheleGoncaloRegis2025006
 
-Sort Employees
+📖 Usage
+Menu Options
+
+When you run the application:
 
 ========================================
  DEPARTMENT STORE MANAGEMENT SYSTEM
@@ -191,19 +194,5 @@ Sort Employees
 3. Add New Employee
 4. Create Employee Hierarchy
 5. Exit System
-
-
-Please enter the filename to read: Applicants_Form.txt
-File read successfully!
-Total employees loaded: 30
-Sorting employees using Merge Sort...
-Sorting completed in 2ms
-
-========== SORTED EMPLOYEES (First 25) ==========
-1. Abigail Walker
-2. Alexander Jackson
-3. Amelia Garcia
-...
-
 
 
