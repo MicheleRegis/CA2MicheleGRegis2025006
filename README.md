@@ -159,7 +159,9 @@ CA2MicheleGincaloRegis2025006/
 │ ├── BinarySearch.java # Binary search algorithm
 
 │ └── BinaryTree.java # Binary tree implementation
+
 │
+
 ├── Applicants_Form.txt # Sample employee data (30 records)
 
 ├── README.md # This file
