@@ -82,9 +82,15 @@ This ensures safe and consistent navigation.
 
 src/
 └── ca2michelegregis2025006/
+
 ├── CA2MicheleGRegis2025006.java # Main program (menu + orchestration)
+
 ├── Employee.java # Employee model class
+
 ├── MergeSort.java # Recursive Merge Sort
+
 ├── BinarySearch.java # Binary Search
+
 ├── BinaryTree.java # Binary tree hierarchy
+
 └── Enums.java # Menu, ManagerType, DepartmentType
