@@ -59,26 +59,87 @@ Builds a simple binary tree using **level-order (breadth-first) insertion**.
 
 Displays:
 
-- Hierarchy level by level  
-- Total number of nodes  
-- Height of tree  
+- Hierarchy level by level  # Department Store Employee Management System
+**Java License Status**
 
-Minimum **20 employees** required.
+A comprehensive employee management system for department stores, featuring recursive sorting algorithms, binary search functionality, and hierarchical visualization using binary trees.
 
 ---
 
-### **5. Enum-Based Terminal Menu**
-All menu options are handled with Java Enums for:
+## 📋 Table of Contents
+- Overview
+- Features
+- System Requirements
+- Project Structure
+- Installation
+- Usage
+- Algorithms
+- Data Structures
+- Testing
+- Documentation
+- Author
+- License
+- Contact
+- Version History
+- Learning Outcomes
 
-- `MenuOption`
-- `ManagerType`
-- `DepartmentType`
+---
 
-This ensures safe and consistent navigation.
+## 🎯 Overview
+This system was developed as an integrated assignment for Algorithms & Constructs and Software Development Fundamentals modules. It demonstrates:
+
+- Object-Oriented Programming principles  
+- Recursive algorithms (Merge Sort)  
+- Search algorithms (Binary Search)  
+- Data structures (Binary Trees with level-order insertion)  
+- Input validation and error handling  
+- Enum-based menu navigation  
+- File I/O operations  
+
+### Business Context  
+The system manages employees in a department store environment, allowing HR managers and administrators to:
+
+- Sort employee records alphabetically  
+- Search for specific employees  
+- Add new employees with validated inputs  
+- Visualize organizational hierarchy  
+
+---
+
+## ✨ Features
+
+### Core Functionality
+
+| Feature          | Description                             | Complexity |
+|------------------|-------------------------------------------|------------|
+| Sort Employees   | Recursive Merge Sort algorithm           | O(n log n) |
+| Search Employees | Binary Search implementation             | O(log n)   |
+| Add Records      | Input validation for new employees       | O(1)       |
+| Hierarchy View   | Binary tree with level-order insertion   | O(n)       |
+| Menu System      | Enum-based navigation                    | O(1)       |
+
+### Technical Highlights
+- ✅ Guaranteed O(n log n) performance with Merge Sort  
+- ✅ Stable sorting (preserves order of equal elements)  
+- ✅ Type-safe menu using Enums  
+- ✅ Full input validation  
+- ✅ Pure Java — no external dependencies  
+- ✅ Clean and well-documented code  
+
+---
+
+## 💻 System Requirements
+- **Java Development Kit (JDK):** Version 8 or higher  
+- **IDE:** NetBeans 8.2+  
+- **Operating System:** Windows, macOS, or Linux  
+- **Memory:** Minimum 512MB RAM  
+- **Storage:** 50MB free space  
 
 ---
 
 ## 📁 Project Structure
+
+
 
 src/
 └── ca2michelegregis2025006/
@@ -94,3 +155,5 @@ src/
 ├── BinaryTree.java # Binary tree hierarchy
 
 └── Enums.java # Menu, ManagerType, DepartmentType
+
+
