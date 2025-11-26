@@ -150,7 +150,7 @@ private static void handleSort() {
     // Updates list with sorted array
     employeeList = new ArrayList<>(Arrays.asList(employeeArray));
 
-    // Show the first 25
+    // Show the first 20
     System.out.println("\n========== SORTED EMPLOYEES (First 20) ==========");
     int displayCount = Math.min(20, employeeList.size());
     for (int i = 0; i < displayCount; i++) {
