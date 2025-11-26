@@ -141,16 +141,30 @@ The system manages employees in a department store environment, allowing HR mana
 
 
 
-src/
-└── ca2michelegregis2025006/
+CA2MicheleGincaloRegis2025006/
 
-├── CA2MicheleGRegis2025006.java # Main program (menu + orchestration)
+│
+├── src/
 
-├── Employee.java # Employee model class
+│ └── CA2MicheleGoncaloRegis2025006/
 
-├── MergeSort.java # Recursive Merge Sort
+│ ├── CA2MicheleGoncaloRegis2025006.java # Main application class
 
-├── BinarySearch.java # Binary Search
+│ ├── Enums.java # Menu, Manager, and Department enums
+
+│ ├── Employee.java # Employee data model
+
+│ ├── MergeSort.java # Recursive sorting algorithm
+
+│ ├── BinarySearch.java # Binary search algorithm
+
+│ └── BinaryTree.java # Binary tree implementation
+│
+├── Applicants_Form.txt # Sample employee data (30 records)
+
+├── README.md # This file
+
+└── Algorithm_Rationale.pdf # Algorithm justification report
 
 ├── BinaryTree.java # Binary tree hierarchy
 
